@@ -1,0 +1,57 @@
+body {
+    background: rgba(248, 246, 246, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+  }
+  header{
+    background-color: #ad0505;
+text-align: left; 
+font-family: 'Comic Sans MS'; 
+font-weight: bold; 
+font-size: 30px; 
+color: #EBD758; 
+text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 
+             0 1px rgba(0, 0, 0, 0.5), 
+             1px 0 rgba(0, 0, 0, 0.5), 
+             0 -1px rgba(0, 0, 0, 0.5), 
+             -2px 2px 0 rgba(0, 0, 0, 0.5), 
+             2px 2px 0 rgba(0, 0, 0, 0.5), 
+             1px 1px rgba(0, 0, 0, 0.5), 
+             2px 2px rgba(0, 0, 0, 0.5), 
+             3px 3px rgba(0, 0, 0, 0.5), 
+             4px 4px rgba(0, 0, 0, 0.5), 
+             5px 5px rgba(0, 0, 0, 0.5);
+
+}
+footer{
+    background-color: #83f660;
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    text-align: center;
+}
+
+a {
+    text-decoration: none; /* Sin subrayado */
+    color: #f7f7f7; /* Color azul claro */
+    font-family: 'Arial', sans-serif; /* Tipografía clara */
+    font-weight: bold; /* Negrita */
+    padding: 10px 15px; /* Espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #604CC3; /* Fondo blanco semitransparente */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+a:hover {
+    background-color: rgb(240, 204, 87); /* Fondo blanco sólido al pasar el ratón */
+    color: #FF6600; /* Color rosa al pasar el ratón */
+}
+
+a:visited {
+    color: #FF6600; /* Color púrpura para enlaces visitados */
+}
